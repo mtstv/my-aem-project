@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/my-aem-project/settings/wcm/templates/landingpage"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="/apps/my-aem-project/components/page/page">
+        <root
+            jcr:lastModified="{Date}2017-01-27T19:18:03.381+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <hero
+                jcr:created="{Date}2017-01-27T19:01:11.626+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-01-27T20:26:53.039+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-aem-project/components/content/hero"/>
+            <tagline
+                jcr:created="{Date}2017-01-27T19:13:54.196+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-01-27T20:26:56.469+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-aem-project/components/content/tagline"/>
+        </root>
+    </jcr:content>
+</jcr:root>

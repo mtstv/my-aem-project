@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:template="/conf/my-aem-project/settings/wcm/templates/landingpage"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="/apps/my-aem-project/components/page/page">
+        <root
+            jcr:lastModified="{Date}2017-01-27T19:18:03.381+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <hero
+                jcr:created="{Date}2017-01-27T19:01:11.626+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-01-27T20:24:08.280+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-aem-project/components/content/hero"
+                editable="{Boolean}true"/>
+            <tagline
+                jcr:created="{Date}2017-01-27T19:13:54.196+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-01-27T20:25:42.486+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-aem-project/components/content/tagline"/>
+            <graphiclist
+                jcr:created="{Date}2017-01-27T19:14:43.867+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-01-27T19:14:43.867+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-aem-project/components/content/graphicList"/>
+            <headings
+                jcr:created="{Date}2017-01-27T19:14:53.359+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-01-27T19:14:53.359+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="my-aem-project/components/content/headings"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

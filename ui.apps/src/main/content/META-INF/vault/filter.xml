@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/my-aem-project"/>
+    <!--filter root="/conf/my-aem-project" mode="merge"/-->
+    <filter root="/conf/my-aem-project/settings/wcm/policies" mode="merge"/>
+    <filter root="/conf/my-aem-project/settings/wcm/templates" mode="merge"/>
+    <filter root="/conf/my-aem-project/settings/wcm/template-types"/>
+    <filter root="/content/my-aem-project" mode="merge"/>
+    <filter root="/etc/clientlibs/my-aem-project"/>
+    <filter root="/etc/designs/my-aem-project"/>
+</workspaceFilter>
