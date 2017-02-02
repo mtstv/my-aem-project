@@ -1,4 +1,4 @@
-package com.headwire.myaem.core.model.content.section;
+package com.headwire.myaem.core.model.content;
 
 public interface Headings {
 

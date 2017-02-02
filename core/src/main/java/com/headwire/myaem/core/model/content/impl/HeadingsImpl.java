@@ -1,4 +1,4 @@
-package com.headwire.myaem.core.model.content.section.impl;
+package com.headwire.myaem.core.model.content.impl;
 
 import javax.annotation.PostConstruct;
 
@@ -9,7 +9,7 @@ import org.apache.sling.models.annotations.Model;
 
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import com.headwire.myaem.core.model.content.section.Headings;
+import com.headwire.myaem.core.model.content.Headings;
 
 
 @Model(adaptables = SlingHttpServletRequest.class, adapters = Headings.class)
@@ -23,7 +23,7 @@ public class HeadingsImpl implements Headings {
   }
 
   @PostConstruct
-  private void postConstruct() {
+  private void postConstructMethod() {
     final Resource resource = request.getResource();
     final ResourceResolver resourceResolver = resource.getResourceResolver();
     final PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
