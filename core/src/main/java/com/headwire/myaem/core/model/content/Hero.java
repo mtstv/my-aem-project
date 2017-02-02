@@ -1,4 +1,4 @@
-package com.headwire.myaem.core.model.content.hero;
+package com.headwire.myaem.core.model.content;
 
 public interface Hero {
 
