@@ -1,4 +1,4 @@
-package com.headwire.myaem.core.model.list;
+package com.headwire.myaem.core.model;
 
 public interface GraphicList {
 
